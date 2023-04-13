@@ -1,0 +1,5 @@
+.card h-100 {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+}
