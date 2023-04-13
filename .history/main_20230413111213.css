@@ -1,0 +1,38 @@
+body {
+  background-color:  #dae7d4;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.btn-primary {
+  background-color: #002f30;
+  border-color: #002f30;
+  color:#dae7d4;
+  font-family: Lausanne,Arial,sans-serif;
+}
+
+.card {
+  background-color:  #2f7d39;
+}
+
+.card-title {
+  color:  #dae7d4;
+  font-family: TimesNow,"Times New Roman",serif;
+}
+ 
+.card-text {
+  color:  #dae7d4;
+  font-family: Lausanne,Arial,sans-serif;
+ }
