@@ -32,9 +32,10 @@ body {
 .card-title {
   color:  #dae7d4;
   font-family: TimesNow,"Times New Roman",serif;
-  border: solid 1px lightblue;
-  text-align: center;
 }
+ 
+
+
  
  .price {
   font-family: 'Caveat', cursive;
@@ -56,14 +57,19 @@ body {
  h5 {
     margin-top: 25px;
   }
-
+  
+  .card-title {
+    border: solid 1px lightblue;
+    text-align: center;
+  } 
   .card-text {
     text-align: justify;
     padding: 10px;
+  }
+  .card-text {
     color:  #dae7d4;
     font-family: Lausanne,Arial,sans-serif;
-  }
-  
+   }
     .card-body {
       padding: 0px;
     } 

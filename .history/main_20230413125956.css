@@ -16,13 +16,11 @@ body {
   justify-content: space-around
 }
 
-.ava {
-  background-color: darkgrey;
+.btn-primary {
+  background-color: #002f30;
   border-color: #002f30;
-  color:yellow;
+  color:#dae7d4;
   font-family: Lausanne,Arial,sans-serif;
-  width: 100%;
-
 }
 
 .card {
@@ -32,17 +30,20 @@ body {
 .card-title {
   color:  #dae7d4;
   font-family: TimesNow,"Times New Roman",serif;
-  border: solid 1px lightblue;
-  text-align: center;
 }
  
+.card-text {
+  color:  #dae7d4;
+  font-family: Lausanne,Arial,sans-serif;
+ }
+
  .price {
+  margin-top: 25px;
   font-family: 'Caveat', cursive;
   font-family: 'Nunito Sans', sans-serif;
   font-size:medium;
   color:  #dae7d4;
   font-weight: bold;
-  padding: 10px;
  }
 
  .specs  {
@@ -50,20 +51,16 @@ body {
   font-family: Lausanne,Arial,sans-serif;
   font-style: italic;
   font-weight: bold;
-  padding: 10px;
  }
  
  h5 {
     margin-top: 25px;
   }
 
+  .card-title {
+    border: solid 1px lightblue;
+    text-align: center;
+  } 
   .card-text {
     text-align: justify;
-    padding: 10px;
-    color:  #dae7d4;
-    font-family: Lausanne,Arial,sans-serif;
   }
-  
-    .card-body {
-      padding: 0px;
-    } 
